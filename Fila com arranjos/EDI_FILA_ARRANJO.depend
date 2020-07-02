@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1515537261 source:c:\users\alcides benicasa\workspace_2017_2_edi_c\edi_fila_arranjo\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"FILA_ARRANJO.h"
+
+1515537582 c:\users\alcides benicasa\workspace_2017_2_edi_c\edi_fila_arranjo\fila_arranjo.h
+
+1549280199 source:c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_fila_arranjo\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"FILA_ARRANJO.h"
+
+1515538821 c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_fila_arranjo\fila_arranjo.h
+
+1549280199 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\edi_fila_arranjo\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"FILA_ARRANJO.h"
+
+1549286389 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\edi_fila_arranjo\fila_arranjo.h
+
