@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1544888925 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\pilhaarranjo\main.cpp
+	<iostream>
+	<stdlib.h>
+	<locale.h>
+	<stdio.h>
+	"PilhaArranjo.h"
+
+1544889011 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\pilhaarranjo\pilhaarranjo.h
+
+1544889060 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\pilhaarranjo05\main.cpp
+	<iostream>
+	<stdlib.h>
+	<locale.h>
+	<stdio.h>
+	"PilhaArranjo.h"
+
+1544889248 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\pilhaarranjo05\pilhaarranjo.h
+
