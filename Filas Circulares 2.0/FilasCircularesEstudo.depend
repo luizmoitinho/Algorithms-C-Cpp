@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1549309657 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\revisao prova i\filascircularesestudo\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Metodos.h"
+
+1549496900 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\revisao prova i\filascircularesestudo\metodos.h
+
