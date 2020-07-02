@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1513724980 source:c:\users\alcides benicasa\workspace_2017_2_edi_c\edi_pilha_apontador\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"PILHA_APONTADOR.h"
+
+1513725857 c:\users\alcides benicasa\workspace_2017_2_edi_c\edi_pilha_apontador\pilha_apontador.h
+
+1513724980 source:c:\dropbox\ufs\2017.2\1.edi\material utilizado\notas de aula\na01\edi_pilha_apontador\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"PILHA_APONTADOR.h"
+
+1513726201 c:\dropbox\ufs\2017.2\1.edi\material utilizado\notas de aula\na01\edi_pilha_apontador\pilha_apontador.h
+
+1513724980 source:c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_pilha_apontador\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"PILHA_APONTADOR.h"
+
+1513726201 c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_pilha_apontador\pilha_apontador.h
+
+1549280820 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\edi_pilha_apontador\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"PILHA_APONTADOR.h"
+
+1513726201 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\edi_pilha_apontador\pilha_apontador.h
+
