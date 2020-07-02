@@ -1,0 +1,13 @@
+// lei aum numero real e imprima o resultado do quadrado desse numero
+#include<conio.h>
+#include <stdio.h>
+#include<math.h>
+int main(void){
+float real;
+clrscr();
+	printf("insira o primeiro numero : ");
+	scanf("%f", &real);
+	printf("%f^2 = ",real, pow(real,2));
+getch();
+return 0;
+}

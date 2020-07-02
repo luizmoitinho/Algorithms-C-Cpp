@@ -1,0 +1,12 @@
+// fa‡a um programa que leia um numero real e o imprima !
+#include<conio.h>
+#include <stdio.h>
+int main(void){
+float numero=0;
+clrscr();
+printf("insira um numero : ");
+scanf("%d", &numero);
+printf("voce digitou o numero :  %f", numero);
+getch();
+return 0;
+}

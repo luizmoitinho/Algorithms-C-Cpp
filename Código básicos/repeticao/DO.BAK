@@ -1,0 +1,20 @@
+#include<conio.h>
+#include <stdio.h>
+int main(void){
+clrscr();
+int cont,armazena,x=0;
+char acesso;
+do{
+	printf("DIGITE UM VALOR:\n");
+	scanf("%d",&x);
+	fflush(stdin);
+	armazena+=x;
+	cont++;
+	printf("deseja continuar ? [s/n]") ;
+}
+while(acesso=='s' );
+printf("o numero de repticoes : %d", cont);
+printf("a soma dos numeros inseridos : %d",armazena);
+getch();
+return 0;
+}

@@ -1,0 +1,17 @@
+//RECEBER UM VALOR DO TECLADO E DIZER SE ê PAR OU IMPAR
+#include<stdio.h>
+#include<conio.h>
+int main(void){
+int num=0;
+clrscr();
+printf("Digite um valor: ");
+scanf("%d",&num);
+	if( (num%2)==0 ){
+	printf("%d e par!",num);
+	}
+	else{
+	printf("%d e impar",num);
+	}
+getch();
+return 0;
+}

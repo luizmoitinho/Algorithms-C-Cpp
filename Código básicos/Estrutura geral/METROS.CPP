@@ -1,0 +1,14 @@
+// converter de metros para milimetros
+#include<stdio.h>
+#include<conio.h>
+int main(){
+clrscr();
+float metros,milimetros;
+printf("-----conversao de medidas------\n");
+printf("Digite a medida em metros: ");
+scanf("%f", &metros);
+milimetros=metros/1000;
+printf("%5.2f metros = %6.3f milimetros", metros,milimetros);
+getch();
+return 0;
+}
