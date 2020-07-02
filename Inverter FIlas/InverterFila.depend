@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1549490328 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\revisao prova i\inverterfila\main.cpp
+	<iostream>
+	<stdlib.h>
+	"filas.h"
+
+1549491055 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\revisao prova i\inverterfila\filas.h
+
