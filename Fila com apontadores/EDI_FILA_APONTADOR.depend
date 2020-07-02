@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1549280393 source:c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_fila_apontador\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"FILA_APONTADOR.h"
+
+1515681029 c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_fila_apontador\fila_apontador.h
+
