@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1544890959 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\pilhaapontadores06\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"PilhaApontadores06.h"
+
+1544892567 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\pilhaapontadores06\pilhaapontadores06.h
+

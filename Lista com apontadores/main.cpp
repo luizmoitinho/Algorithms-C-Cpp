@@ -1,84 +1,88 @@
 #include <iostream>
 #include <locale.h>
-#include <stdlib.h>
+#include <fstream>
+#include<stdlib.h>
+#include<stdio.h>
+#include<string.h>
+#include<string>
 using namespace std;
-#include "LISTA_APONTADOR.h"
-enum Escolhas {CRIA, INSEREINICIO, INSEREPOSICAO, INSEREFINAL, REMOVEINICIO, REMOVEFINAL, PESQUISAREMOVE, IMPRIME, FIM};
 
-//------------------------------------------------------------------------
-Escolhas enterChoice(TLista& lista)
-{
+
+
+#include "Apontadores.h"
+
+enum Escolhas {CRIA, PROCURAR, INSEREINICIO, INSEREPOSICAO, INSEREFINAL, REMOVEINICIO,
+REMOVEFINAL, PESQUISAREMOVE,IMPRIME, FIM};
+
+Escolhas enterChoice (Tlista &lista){
+
     system("cls");
-    Imprime(lista);
     int menuChoice;
-    cout << "\nMenu [LISTA APONTADOR]" << endl
-         << "1 - Insere no Início\n"
-         << "2 - Insere na Posição\n"
-         << "3 - Insere no Final\n"
-         << "4 - Remove do Início\n"
-         << "5 - Remove do Final\n"
-         << "6 - Pesquisa e Remove\n"
-         << "7 - Imprime\n"
-         << "8 - Fim do programa\n"
-         << "Opção: ";
-    cin >> menuChoice;
+    cout<<"\n\t\t\t\tMENU\n\n"
+    <<"\t\t\t[1] Procurar acidente\n"
+    <<"\t\t\t[2] Insere no inicio\n"
+    <<"\t\t\t[3] Insere na posicao\n"
+    <<"\t\t\t[4] Insere no final\n"
+    <<"\t\t\t[5] Remove no inicio\n"
+    <<"\t\t\t[6] Remove no final\n"
+    <<"\t\t\t[7] Pesquisa e remove\n"
+    <<"\t\t\t[8] Imprime\n"
+    <<"\t\t\t[9] Fim do programa\n"
+    << "\t\t\t\t>>Opção : ";
+    cin>>menuChoice;
     return (Escolhas) menuChoice;
 }
 
-void setDados(TInfo& item){
-    cout << "\nInforme o Código: ";
-    cin >> item.Chave;
-}
+int main(){
+    setlocale(LC_ALL, "portuguese");
 
-void setPosicao(int& pos){
-    cout << "\nInforme a Posição: ";
-    cin >> pos;
-}
-
-int main()
-{
-    setlocale (LC_ALL,"portuguese");
-    TInfo item;
-    int p;
-    TLista l;
-    Cria(l);
-    Imprime(l);
-
+    Tinfo item; // item a ser enviado para as funções
+    Tlista lista; // lista em sí
+    criaLista(lista);
+    int posicao=0; //posição para inserir um item
     Escolhas opcao;
-    while ((opcao = enterChoice(l)) != FIM)
-    {
-        switch (opcao)
-        {
-        case INSEREINICIO:
-            setDados(item);
-            InsereInicio(l,item);
-            break;
-        case INSEREPOSICAO:
-            setDados(item);
-            setPosicao(p);
-            InserePosicao(l,item,p);
-            break;
-        case INSEREFINAL:
-            setDados(item);
-            InsereFinal(l,item);
-            break;
-        case REMOVEINICIO:
-            RemoveInicio(l);
-            break;
-        case REMOVEFINAL:
-            RemoveFinal(l);
-            break;
-        case PESQUISAREMOVE:
-            setDados(item);
-            PesquisaRemove(l,item);
-            break;
-        case IMPRIME:
-            Imprime(l);
-            break;
-        default:
-            cerr << "Opção incorreta\n";
-            break;
-        }
+    carregaArquivo(lista); // carregando
+    while((opcao = enterChoice(lista)) !=FIM){
+       switch(opcao){
+            case PROCURAR:
+               cout<<"\n\t\t Informe o código do acidente : ";
+                cin>>item.codigo;
+                procurarAcidente(lista,item);
+               break;
+            case INSEREINICIO:
+                setDados(lista,item);
+                insereInicio(lista,item);
+                break;
+            case INSEREPOSICAO:
+
+                setDados(lista,item);
+                setPosicao(posicao);
+                inserePosicao(lista,item,posicao);
+                break;
+            case INSEREFINAL:
+               setDados(lista,item);
+                insereFinal(lista,item);
+                break;
+            case REMOVEINICIO:
+                removeInicio(lista);
+                break;
+            case REMOVEFINAL:
+                removeFinal(lista);
+                break;
+            case PESQUISAREMOVE:
+                cout<<"\n\t\t Informe o código do acidente : ";
+               cin>>item.codigo;
+               pesquisaRemove(lista,item);
+                break;
+            case IMPRIME:
+                  imprime(lista);
+                break;
+            default:
+                cerr<<" \n\t\tOpção digitada é inválida!!\n";
+                break;
+       }
+       system("pause");
     }
+        atualizaArquivo(lista);
     return 0;
 }

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1544568195 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\lista03_apontadores\main.cpp
+	<iostream>
+	<locale.h>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<string>
+	"Apontadores.h"
+
+1544648329 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\lista03_apontadores\apontadores.h
+
