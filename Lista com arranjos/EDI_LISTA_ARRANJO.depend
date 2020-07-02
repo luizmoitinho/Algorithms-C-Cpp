@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1510250189 source:c:\users\alcides benicasa\workspace_2017_2_edi_c\edi_lista_arranjo\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"LISTA_ARRANHO.h"
+
+1512557294 c:\users\alcides benicasa\workspace_2017_2_edi_c\edi_lista_arranjo\lista_arranho.h
+
+1549280473 source:c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_lista_arranjo\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"LISTA_ARRANHO.h"
+
+1544283188 c:\users\alcides benicasa\dropbox\ufs\2018.2\1.edi\material utilizado\notas de aula\na01\edi_lista_arranjo\lista_arranho.h
+
+1549491824 source:c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\edi_lista_arranjo\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	"LISTA_ARRANHO.h"
+
+1549492487 c:\users\luizc\desktop\2018.2\estrutura de dados i\exercícios\edi_lista_arranjo\lista_arranho.h
+
